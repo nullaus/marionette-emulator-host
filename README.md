@@ -1,4 +1,7 @@
-marionette-emulator-host
-========================
+# Q host for marionette-js-runner
 
-A marionette host for the qemu emulator
+[![Build
+Status](https://travis-ci.org/nullaus/marionette-emulator-host.png)
+](https://travis-ci.org/nullaus/marionette-emulator-host)
+
+A complete target environment for marionette using the qemu emulator.

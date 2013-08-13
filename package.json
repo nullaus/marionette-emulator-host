@@ -1,0 +1,34 @@
+{
+  "name": "marionette-emulator-host",
+  "version": "0.1.0",
+  "author": "Aus Lacroix [:nullaus]",
+  "description": "marionette-js-runner host for qemu emulator",
+  "main": "index.js",
+  "keywords": [
+    "firefox os",
+    "gecko",
+    "b2g-desktop",
+    "firefox",
+    "marionette-js-runner"
+  ],
+  "dependencies" : {
+    "debug": "*",
+    "mozilla-download": "~0.2.1",
+    "mozilla-runner": "~0.0.1"
+  },
+  "devDependencies": {
+    "empty-port": "~0.0.1",
+    "mozilla-profile-builder": "~0.2.0-alpha",
+    "mocha": "~1.7",
+    "node-static": "~0.6",
+    "marionette-client": "~0.9.1"
+  },
+  "license": "MPLv2",
+  "engine": {
+    "node": ">=0.4"
+  },
+
+  "scripts": {
+    "test": "make test"
+  }
+}
